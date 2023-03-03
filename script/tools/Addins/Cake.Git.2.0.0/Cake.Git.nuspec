@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Cake.Git</id>
+    <version>2.0.0</version>
+    <title>Cake.Git</title>
+    <authors>WCOM AB</authors>
+    <owners>WCOM AB,cake-contrib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>images/icon.png</icon>
+    <projectUrl>https://github.com/cake-contrib/Cake_Git</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/addin/cake-contrib-addin-medium.png</iconUrl>
+    <description>Cake Git AddIn</description>
+    <summary>Cake AddIn that extends Cake with Git SCM features</summary>
+    <releaseNotes>Update Cake.Git to target Cake v2.0.0
+Fix infinite loop in GitFindRootFromPath
+Added another alias for git fetch
+Update Cake.Git NuGet package icon to the new Cake-Contrib logo for Cake addin
+Added an alias GitShortenSha
+Update LibGit2Sharp to 0.27.0-preview-0102
+update LibGit2Sharp.NativeBinaries to 2.0.312</releaseNotes>
+    <copyright>Copyright © WCOM AB 2021</copyright>
+    <tags>cake script build git cake-addin cake-build</tags>
+    <repository type="git" url="https://github.com/cake-contrib/Cake_Git.git" />
+  </metadata>
+</package>
